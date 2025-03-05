@@ -66,14 +66,12 @@ a {
 .box-3-2 {
     grid-column: span 3;
     grid-row: span 2;
-    max-width: 1100px;
     width: 100%;
 
 }
 
 .box-3-1 {
     grid-column: span 3;
-    max-width: 1100px;
     width: 100%;
 }
 
@@ -83,7 +81,6 @@ a {
 }
 
 .box-2-1 {
-    max-width: 723px;
     height: 350px;
     grid-column: span 2;
 }
@@ -341,13 +338,7 @@ a {
 
 @media (max-width: 1024px) {
     .grid {
-        grid-template-columns: repeat(3 , minmax(150px, 1fr)); 
-    }
-}
-
-@media (max-width: 768px) {
-    .grid {
-        grid-template-columns: repeat(2, minmax(150px, 1fr)); 
+        grid-template-columns: repeat(2, minmax(300px, 1fr)); 
     }
 
     .box-3-2 {
