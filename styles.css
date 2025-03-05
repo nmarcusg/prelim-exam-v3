@@ -292,7 +292,6 @@ a {
       0 0 16px rgb(233, 233, 233);
     transform: scale(1.1);
 }
-  
 
 /* components */
 
@@ -355,7 +354,6 @@ a {
     }
 }
 
-
 @media (max-width: 768px) {
     .box-3-2,
     .box-3-1 {
@@ -368,7 +366,6 @@ a {
       grid-column: span 2;
     }
 }
-
 
 @media (max-width: 425px) {
     .grid {
@@ -385,6 +382,5 @@ a {
         flex-direction: column;
         gap: 1rem;
     }
-
 
 }
