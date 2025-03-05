@@ -100,6 +100,10 @@ a {
     justify-content: space-between;
 }
 
+.about {
+    justify-content: end;
+}
+
 .full-height {
     min-height: 80vh;
 }
