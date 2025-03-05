@@ -1,14 +1,14 @@
 /* nyaw */
 /* variables */
 :root {
-    --main-bg: #121212; /* Dark background */
-    --card-bg: #1E1E1E; /* Darker card background */
-    --card-accent: #292929; /* Accent for depth */
-    --white: #E0E0E0; /* Light white for contrast */
-    --gold: #D4AF37; /* Gold for highlights */
-    --red: #FF2400; /* Urgent sale red */
-    --deep-black: #000000; /* Black for depth */
-    --charcoal-gray: #333333; /* Subtle dark gray */
+    --main-bg: #121212;
+    --card-bg: #1E1E1E; 
+    --card-accent: #292929;
+    --white: #E0E0E0;
+    --gold: #D4AF37;
+    --red: #FF2400; 
+    --deep-black: #000000; 
+    --charcoal-gray: #333333;
 }
 
 
@@ -32,12 +32,10 @@ body {
 }
 
 a {
-    display: block; /* Make the link a block element */
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit color from parent */
+    display: block; 
+    text-decoration: none;
+    color: inherit; 
 }
-
-/* animations */
 
 /* utility */
 
