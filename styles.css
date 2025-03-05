@@ -375,4 +375,11 @@ a {
         grid-column: span 1 !important;
         max-width: 100% !important;
     }
+
+    .nav{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
 }
