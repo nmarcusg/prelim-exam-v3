@@ -2,7 +2,7 @@
 /* variables */
 :root {
     --main-bg: #121212; /* Dark background */
-    --card-bg: #1E1E1E; /* Darker card background */
+    --card-bg: #    ; /* Darker card background */
     --card-accent: #292929; /* Accent for depth */
     --white: #E0E0E0; /* Light white for contrast */
     --gold: #D4AF37; /* Gold for highlights */
@@ -285,6 +285,19 @@ a {
     url("https://images.squarespace-cdn.com/content/v1/5ac2ddf285ede15e39a57666/731d4e30-96e3-4c01-b057-3f107f53ad49/Design-Anthology-2022-02+Hong+Kong+Wood+Crafts-Justin-Chan.jpg")
     no-repeat center center/cover;
 }
+
+.text-glow {
+    text-shadow: none;
+    transition: text-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+  
+.text-glow:hover {
+    text-shadow: 
+      0 0 8px rgb(63, 71, 209),
+      0 0 16px rgb(233, 233, 233);
+    transform: scale(1.1);
+}
+  
 
 /* components */
 
